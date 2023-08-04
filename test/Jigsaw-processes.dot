@@ -1,0 +1,9 @@
+digraph spade2dot {
+graph [rankdir = "RL"];
+node [fontname="Helvetica" fontsize="8" style="filled" margin="0.0,0.0"];
+edge [fontname="Helvetica" fontsize="8"];
+"f0f914ed76209d8b4bd41e44feab807d" [label="arch:64-bit\ncommandline:C:\\Windows\\System32\\svchost.exe -k NetSvcs -p -s iphlpsvc\ncompany:Microsoft Corporation\ndescription:Host Process for Windows Services\nimagepath:C:\\Windows\\System32\\svchost.exe\nname:svchost.exe\npid:2400\nppid:604\ntype:Process
+\nversion:10.0.19041.1 (WinBuild.160101.0800)" shape="box" fillcolor="lightsteelblue1"];
+"47d49ac2d3c5bb33137106f9c3b91e35" [label="arch:64-bit\ncommandline:\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1\ncompany:Microsoft Corporation\ndescription:Console Window Host\nimagepath:C:\\Windows\System32\Conhost.exe\nname:615d9d4fe030c0f34589c63b31e865e2e28267bdaa1ec6df6a3632ec54911209.exe\npid:8476\nppid:2096\ntype:Process\nversion:10.0.19041.1 (WinBuild.160101.0800)" shape="box" fillcolor="lightsteelblue1"];
+"01cfcdcfb41e5095763c74d2aa3968d1" [label="arch:32-bit\ncommandline:\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /c\ncompany:Microsoft Corporation\ndescription:Microsoft Edge Update\nimagepath:C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\nname:MicrosoftEdgeUpdate.exe\npid:7412\nppid:828\ntype:Process\nversion:1.3.147.37" shape="box" fillcolor="lightsteelblue1"];
+}

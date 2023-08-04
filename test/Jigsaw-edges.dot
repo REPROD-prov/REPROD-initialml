@@ -1,0 +1,9 @@
+digraph spade2dot {
+graph [rankdir = "RL"];
+node [fontname="Helvetica" fontsize="8" style="filled" margin="0.0,0.0"];
+edge [fontname="Helvetica" fontsize="8"];
+"f0f914ed76209d8b4bd41e44feab807d" -> "01cfcdcfb41e5095763c74d2aa3968d1" [label="duration:0.0000011\ndatetime:2/22/2022 7:07:25 AM\ndetail:Query: HandleTags, HandleTags: 0x0\ntime:7:07:25.2035491 AM\ncategory:Read\ntype:Used\noperation:RegQueryKey" color="green" style="solid"];
+"47d49ac2d3c5bb33137106f9c3b91e35" -> "f0f914ed76209d8b4bd41e44feab807d" [label="duration:0.0000023\ndatetime:2/22/2022 7:07:26 AM\ndetail:Desired Access: Maximum Allowed, Granted Access: Read\ntime:7:07:25.2041205 AM\ncategory:Read\ntype:Used\noperation:RegOpenKey" color="green" style="solid"];
+"01cfcdcfb41e5095763c74d2aa3968d1" -> "47d49ac2d3c5bb33137106f9c3b91e35" [label="duration:0.0000011\ndatetime:2/22/2022 7:07:27 AM\ndetail:Query: HandleTags, HandleTags: 0x0\ntime:7:07:25.2071734 AM\ncategory:Read\ntype:Used\noperation:RegQueryKey" color="green" style="solid"];
+"f0f914ed76209d8b4bd41e44feab807d" -> "01cfcdcfb41e5095763c74d2aa3968d1" [label="duration:0.0000013\ndatetime:2/22/2022 7:07:28 AM\ndetail:Query: HandleTags, HandleTags: 0x0\ntime:7:07:25.2040276 AM\ncategory:Read\ntype:Used\noperation:RegQueryKey" color="green" style="solid"];
+}
