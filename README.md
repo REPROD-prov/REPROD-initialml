@@ -59,7 +59,7 @@ Then:
 
 5.  Input query file to SPADE query.
 Moving back to terminal 1:
-`# bin/spade query < DATA_DIR/RANSOMWARE.sh`
+`$ bin/spade query < DATA_DIR/RANSOMWARE.sh`
 
 6.  Confirm all time slice files created.
 Remaining in terminal 1:
@@ -83,7 +83,7 @@ $ docker pull sricsl/radix:0.3
 
 $ docker run -it -v  PROCMONLOGS_DIR:/spade-logs:ro  -v DATA_DIR:/spade-data2 sricsl/radix:0.3
 
-$bin/spade start
+$ bin/spade start
 
 $ bin/manage-quickstep.sh start --path /tmp/quickstep-database
 bin/spade control
@@ -122,13 +122,14 @@ You will see:
 
 4.  Input query file to SPADE query.
 Moving back to terminal 1:
-# bin/spade query < /spade-data2/RANSOMWARE.sh
+`bin/spade query < /spade-data2/RANSOMWARE.sh`
 
 5.  Confirm all time slice files created.
 Remaining in terminal 1:
-# cd /spade-data2/RANSOMWARE
-# find . -type f | wc -l
-
+```
+cd /spade-data2/RANSOMWARE
+find . -type f | wc -l
+```
 Note:  number should match timeslices count from step 3
 
 6.  Use ^D to exit docker.
