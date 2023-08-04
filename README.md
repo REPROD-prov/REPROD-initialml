@@ -63,9 +63,10 @@ Moving back to terminal 1:
 
 6.  Confirm all time slice files created.
 Remaining in terminal 1:
-# cd DATA_DIR/RANSOMWARE
-# ls | wc
-
+```
+$ cd DATA_DIR/RANSOMWARE
+$ ls | wc
+```
 Note:  first number should match total count from slice_data.py
 
 7.  Use ^D to exit docker.
